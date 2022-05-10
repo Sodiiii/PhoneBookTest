@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap");
+
+.App {
+  align-items: center;
+  justify-content: center;
+}
+body {
+  background-color: #cbcbf3;
+}
+.title h1 {
+  color: #3a3a3a;
+  text-align: center;
+  margin: 30px 0;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+}
+form {
+  max-width: 500px;
+  margin: 0 auto;
+  background: white;
+  padding: 10px 20px;
+  margin-top: 50px;
+  border-radius: 5px;
+  box-shadow: 1px 2px 10px #ddd;
+}
+form h3 {
+  text-align: center;
+}
+.phone_select{
+  width: 190px;
+  margin-right: 15px;
+  outline: none;
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  padding-left: 80px;
+  background-image: url('./source/flags/RUS.svg');
+  background-repeat: no-repeat;
+  background-size: 30px;
+  background-position: 20% 45%;
+}
+
+.phone_select_rus {
+  background-image: url('./source/flags/RUS.svg');
+}
+
+.phone_select_ger {
+  background-image: url('./source/flags/germany.svg');
+}
+
+.phone_select_fra {
+  background-image: url('./source/flags/france.svg');
+}
+
+form input {
+  width: 100%;
+  padding: 10px 5px;
+  outline: none;
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+}
+.input_container {
+  margin-bottom: 20px;
+  display: flex;
+}
+.btn_container {
+  text-align: center;
+  margin-bottom: 10px;
+}
+.btn_container button {
+  background: #333;
+  color: white;
+  padding: 10px 20px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+}
+
+.phone_container {
+  width: 50%;
+  margin: 0 auto;
+}
+.phone {
+  margin-top: 20px;
+  background: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 1px 2px 10px #ddd;
+}
+.phone input {
+  cursor: pointer;
+  width: 50%;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  font-size: 28px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+}
+
+
+#i {
+  font-size: 35px;
+}
+@media screen and (max-width: 667px) {
+  .task_container {
+    width: 90%;
+  }
+  .task {
+    margin-right: 0px;
+  }
+}
+input:focus,
+button:focus {
+  outline: none;
+}
