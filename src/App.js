@@ -25,12 +25,8 @@ function App() {
 
   return (
     <div className='App'>
-        <div>
-          <Title />
-        </div>
-        <div>
-        <AddPhone />
-        </div>
+        <Title/>
+        <AddPhone/>
         <div className='phone_container'>
           {phones.map((phone) => (
             <PhoneBase key={phone.id} phone={phone}/>

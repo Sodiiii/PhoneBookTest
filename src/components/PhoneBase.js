@@ -1,11 +1,11 @@
 import React from 'react'
 
-const PhoneBase = ({phone, toggleComplete}) => {
+const PhoneBase = ({phone}) => {
     const [newPhone, setNewPhone] = React.useState(phone.title);
 
     const handleChange = (e) => {
         e.preventDefault();
-        if (phone.complete === true) {
+        if (phone.complete) {
             setNewPhone(phone.phone);
         } else {
             phone.phone = "";
